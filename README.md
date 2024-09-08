@@ -7,6 +7,46 @@ By analyzing these data points, the platform provides actionable insights and re
 
 This Platform also provides APIs for Real time Livability Index per location and Also Forecasts Livability Index and Corresponding SubIndices for User Selected Duration. 
 
+
+## Data Story
+we use below data source to figure out the factors which impacts the livability index:
+ABS Data :
+ - https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25620
+ - https://dbr.abs.gov.au/region.html?lyr=sa3&rgn=21305
+ - https://dbr.abs.gov.au/region.html?lyr=lga&rgn=26170
+ - https://dbr.abs.gov.au/region.html?lyr=sa4&rgn=204
+ - https://dbr.abs.gov.au/region.html?lyr=lga&rgn=22750
+ - https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25710
+
+[Crime Statistics](https://www.crimestatistics.vic.gov.au/crime-statistics/latest-crime-data-by-area)
+[LGA Population projections 2022 to 2032 | Digital Atlas of Australia ](
+https://digital.atlas.gov.au/datasets/5f866394db4a452da103bcaf9acf23fd_0/explore?location=-23.515642%2C-47.592505%2C3.98)
+
+[Australia's Transport Network | Digital Atlas of Australia ](https://digital.atlas.gov.au/datasets/e5097c31e56545839b236a86b25546e7_2/explore?location=-23.476176%2C-47.606250%2C4.00)
+
+[State Emergency Services Facilities | Digital Atlas of Australia ](https://digital.atlas.gov.au/datasets/d62af0ed9f7549e695eb8cb42b819c0d_5/explore?location=-23.476176%2C-47.606250%2C4.00)
+
+[Police Stations | Digital Atlas of Australia](https://digital.atlas.gov.au/datasets/e5097c31e56545839b236a86b25546e7_2/explore?location=-23.476176%2C-47.606250%2C4.00)
+[Livability Index](https://new.map.auo.org.au/#register)
+
+With above data feed into our LLM, the InsightsAI can forecast population and livability index with new input.
+
+## 1. 
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image6.jpg?raw=true)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(1).png?raw=true)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(2).png?raw=true)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(3).png?raw=true)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(5).png?raw=true)
+![](https://github.com/user-attachments/assets/6ff9c4a0-cb8d-4126-bad2-095fc96926a7)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image.png?raw=true)
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(4).png?raw=true)
+
+
+
+
+[Railway Stations | Digital Atlas of Australia](
+https://digital.atlas.gov.au/datasets/ce226ce26ed94a8f9b644b000cb8430e_0/explore?location=-20.215809%2C-45.615250%2C3.54)
+
 ## Problems We identified
 * Accurately predicting population growth using traditional methods that rely solely on birth and death rates proves to be increasingly challenging. For governments to allocate resources effectively and enhance overall quality of life, a more holistic and data-driven approach is crucial.
 * Governments and policymakers often struggle to fully understand the changing needs of their communities, which can result in inefficient resource distribution, delayed infrastructure improvements, and slow responses to local developments.
@@ -111,3 +151,6 @@ https://digital.atlas.gov.au/datasets/ce226ce26ed94a8f9b644b000cb8430e_0/explore
 ## Benefits 
 
 ## Video Demonstration
+
+
+
