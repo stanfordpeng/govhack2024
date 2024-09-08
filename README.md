@@ -3,7 +3,7 @@ Governments and policymakers often face challenges in understanding the evolving
 
 This AI-powered platform addresses these issues by integrating multi-dimensional data, including historical population growth, current geo amenities (such as police stations, hospitals, and schools), and future forecasts for the next 10 to 20 years. 
 
-By analyzing these data points, the platform provides actionable insights and recommendations on critical infrastructure upgradesranging from roads , agecare facilities, parks to educational facilities like schools and universities, healthcare services such as hospitals and clinics, and other essential amenities like petrol stations and train stations. It identifies optimal locations and timelines for these developments, ensuring they meet the future demands of the growing community effectively and efficiently.
+By analyzing these data points, the platform provides actionable insights and recommendations on critical infrastructure upgrade sranging from roads , agecare facilities, parks to educational facilities like schools and universities, healthcare services such as hospitals and clinics, and other essential amenities like petrol stations and train stations. It identifies optimal locations and timelines for these developments, ensuring they meet the future demands of the growing community effectively and efficiently.
 
 This Platform also provides APIs for Real time Livability Index per location and Also Forecasts Livability Index and Corresponding SubIndices for User Selected Duration. 
 
