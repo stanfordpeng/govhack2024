@@ -52,7 +52,7 @@ The prediction engine utilizes our feature engineering library to analyse histor
 
 ## Insights AI APIs
 
-![InsightsAPI](gif/api-govhack.gif.gif)
+![InsightsAPI](gif/api-govhack.gif)
 
 ### [Livability Index](https://github.com/stanfordpeng/govhack2024/blob/main/api-docs/livability.md)
 `GET /api/v1/liveability`
