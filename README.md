@@ -19,9 +19,22 @@ Addressing these gaps is crucial to building more resilient, thriving communitie
 ## How Insights AI solves these problems
  
 
-### Overall SubSytem View
+## Overall SubSytem View
 
 <img width="1182" alt="Systems View" src="https://github.com/user-attachments/assets/2a8c3377-8a58-4372-a04e-7bb1578f6036">
+
+### Language Model
+For the language model, we have chosen RAG (Retrieval-Augmented Generation), which combines retrieval of relevant information from a database with a generative model, such as GPT from openAI or T5 from Google, to produce more accurate and contextually relevant responses.
+
+ 
+
+### Feature Selection Library
+Feature Engineering creates and selects relevant data features, in our case the government datasets, to improve a model's performance. It uses domain knowledge to enhance accuracy.
+
+ 
+
+### Prediction Engine
+The prediction engine utilizes our feature engineering library to analyse historical and current data, allowing it to make more acurate predictions about future trends. Supervised Learning is a viable candidate for the training of this prediction engine, and Continuous Learning, which involves updating the model incrementally as new data becomes available.
 
 
 ### Insights AI and Livability Index + Insights
