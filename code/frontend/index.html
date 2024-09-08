@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights AI</title>
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="center-align">Insights AI</h1>
+
+        <!-- Dropdown Filters -->
+        <div class="row">
+            <div class="input-field col s12 m4">
+                <select id="index-select">
+                    <option value="livability">Livability Index</option>
+                    <option value="education">Education Index</option>
+                    <option value="health">Health Index</option>
+                </select>
+                <label>Select Index</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <select id="suburb-select" onchange="updateSelectedInfo()">
+                    <option value="blackburn-south">Blackburn South</option>
+                    <option value="geelong">Geelong</option>
+                    <option value="bendigo">Bendigo</option>
+                    <option value="ballarat">Ballarat</option>
+                </select>
+                <label>Select Suburb</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <select id="time-range" onchange="updateSelectedInfo()">
+                    <option value="now">Now</option>
+                    <option value="3years">3 Years</option>
+                    <option value="5years">5 Years</option>
+                    <option value="10years">10 Years</option>
+                </select>
+                <label>Select Time Range</label>
+            </div>
+        </div>
+
+        <!-- Map Section and Overlaid Info + Chatbot Card -->
+        <div class="map-container">
+            <img src="assets/map.png" alt="Victoria Suburbs Map" class="responsive-img" />
+
+            <!-- Overlaid Combined Info and Chatbot Card -->
+            <div class="overlay-container">
+                <div id="combined-card" class="card-panel overlay-card">
+                    <h5>Selected Area Info</h5>
+                    <div id="suburb-info">
+                        <p>Livability: 8.9</p>
+                        <p>Population: 10,939</p>
+                    </div>
+
+                    <hr>
+
+                    <!-- Chatbot UI -->
+                    <div id="chatbot">
+                        <h6>AI Insights Chat</h6>
+                        <div id="chat-window" class="chat-window">
+                            <div id="messages">
+                                <div class="message bot-message">Hello! How can I assist you today?</div>
+                                <div class="message user-message">Tell me what council can do to make livability score of selected area higher</div>
+                                <div class="message bot-message">Build more hospitals</div>
+                            </div>
+                        </div>
+                        <div id="chat-input" class="input-field">
+                            <input id="chat-message" type="text" placeholder="Type a message..." class="browser-default">
+                            <button class="btn-large waves-effect waves-light" id="send-button" onclick="sendMessage()">Send</button>
+                        </div>
+                        <!-- Footnote -->
+                        <div class="footnote">
+                            Powered by Insight AI
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JS and jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
