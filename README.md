@@ -29,29 +29,34 @@ https://digital.atlas.gov.au/datasets/5f866394db4a452da103bcaf9acf23fd_0/explore
 [Police Stations | Digital Atlas of Australia](https://digital.atlas.gov.au/datasets/e5097c31e56545839b236a86b25546e7_2/explore?location=-23.476176%2C-47.606250%2C4.00)
 [Livability Index](https://new.map.auo.org.au/#register)
 
+[Railway Stations | Digital Atlas of Australia](
+https://digital.atlas.gov.au/datasets/ce226ce26ed94a8f9b644b000cb8430e_0/explore?location=-20.215809%2C-45.615250%2C3.54)
+
 With above data feed into our LLM, the InsightsAI can forecast population and livability index with new input.
 
 ### 1. Exploring Potential indicators of population growth
+First, we looked at potential features that can be used to train the feature engineering AI. Traditionally, the government only uses birth rates and death rates to predict this population growth.
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image6.jpg?raw=true)
 ### 2. Graphing out Local Government Areas (LGA) with highest growth from 2017 to 2019
+We graphed out the LGA population growth to prepare for feature analysis
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(1).png?raw=true)
 ### 3. Unemployment rates of top 3 and bottom 3 LGAs 
+We checked the unemployment rates of the top and bottom 3 LGAs to analyse the correlation between them
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(2).png?raw=true)
 ### 4. Crime Incident rates of top 3 and bottom 3 LGAs
+We checked and graphed out the crime rates of the top and bottom 3 LGAs to analyse the correlation between them
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(3).png?raw=true)
-![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(5).png?raw=true)
 ### 5. Unemployment rates of top 3 and bottom 3 LGAs
-![](https://github.com/user-attachments/assets/6ff9c4a0-cb8d-4126-bad2-095fc96926a7)
+We checked and graphed out the unemployment rates of the top and bottom 3 LGAs to analyse the correlation between them
+![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(5).png?raw=true)
 ### 6. Results of findings post on slack
+We decided on which features were more correlated with population growth, and which ones were not, this would help us with training the feature engineering AI to more accurately predict population growth
+![](https://github.com/user-attachments/assets/6ff9c4a0-cb8d-4126-bad2-095fc96926a7)
+### 7. Ideating potential solutions and direction of our project
+We have ideated and decided on the use of liveability index in our solution, as it made sense with the AI being trained on various features all related to quality of life, and thought it would benefit general users.
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image.png?raw=true)
-### 7. 
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(4).png?raw=true)
 
-
-
-
-[Railway Stations | Digital Atlas of Australia](
-https://digital.atlas.gov.au/datasets/ce226ce26ed94a8f9b644b000cb8430e_0/explore?location=-20.215809%2C-45.615250%2C3.54)
 
 ## Problems We identified
 * Accurately predicting population growth using traditional methods that rely solely on birth and death rates proves to be increasingly challenging. For governments to allocate resources effectively and enhance overall quality of life, a more holistic and data-driven approach is crucial.
