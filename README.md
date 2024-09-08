@@ -43,6 +43,7 @@ The prediction engine utilizes our feature engineering library to analyse histor
 ## Example  Applications 
 
 ### CommunityInsights  
+!(CommunityAI)[gif/CommunityAIRevised.gif]
 
 ### AtlasAI
 
