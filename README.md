@@ -20,8 +20,8 @@ Addressing these gaps is crucial to building more resilient, thriving communitie
  
 
 ### Overall SubSytem View
+![Uploading Systems View.png…]()
 
-<img width="1182" alt="Systems View" src="https://gist.github.com/user-attachments/assets/188a16d0-15fe-48eb-8cff-3c4c254cb352">
 
 ### Insights AI and Livability Index + Insights
 
