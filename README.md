@@ -47,6 +47,7 @@ The prediction engine utilizes our feature engineering library to analyse histor
 
 
 ### AtlasAI
+![AtlasAPP](gif/mobileAPPGovhack24.gif)
 
 ### Livability Index Feed to Real Estate Apps.
 
