@@ -87,12 +87,13 @@ The prediction engine utilizes our feature engineering library to analyse histor
 `POST /api/v1/generate-response`
 
 Data sources 
-https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25620
-https://dbr.abs.gov.au/region.html?lyr=sa3&rgn=21305
-https://dbr.abs.gov.au/region.html?lyr=lga&rgn=26170
-https://dbr.abs.gov.au/region.html?lyr=sa4&rgn=204
-https://dbr.abs.gov.au/region.html?lyr=lga&rgn=22750
-https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25710
+
+- https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25620
+- https://dbr.abs.gov.au/region.html?lyr=sa3&rgn=21305
+- https://dbr.abs.gov.au/region.html?lyr=lga&rgn=26170
+- https://dbr.abs.gov.au/region.html?lyr=sa4&rgn=204
+- https://dbr.abs.gov.au/region.html?lyr=lga&rgn=22750
+- https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25710
 
 [LGA Population projections 2022 to 2032 | Digital Atlas of Australia ](
 https://digital.atlas.gov.au/datasets/5f866394db4a452da103bcaf9acf23fd_0/explore?location=-23.515642%2C-47.592505%2C3.98)
