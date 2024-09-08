@@ -64,7 +64,7 @@ GET /api/v1/insights/{domain}
 
 * domain = healthcare, education, infrastructure, environment, housing
 
-GET /api/v1/generated-response
+GET /api/v1/generate-response
 
 
 Data sources 
