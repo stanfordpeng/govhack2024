@@ -50,8 +50,7 @@ The prediction engine utilizes our feature engineering library to analyse histor
 ![AtlasAPP](gif/mobileAPPGovhack24.gif)
 
 ### Livability Index Feed to Real Estate Apps.
-
-![indexfeedToApp](pic/LivabilityIndex.jpg | width=50)
+<img src="pic/LivabilityIndex.jpg" width="400">
 
 ### Insights AI APIs
 
