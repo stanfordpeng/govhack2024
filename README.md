@@ -31,14 +31,20 @@ https://digital.atlas.gov.au/datasets/5f866394db4a452da103bcaf9acf23fd_0/explore
 
 With above data feed into our LLM, the InsightsAI can forecast population and livability index with new input.
 
-## 1. 
+### 1. Exploring Potential indicators of population growth
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image6.jpg?raw=true)
+### 2. Graphing out Local Government Areas (LGA) with highest growth from 2017 to 2019
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(1).png?raw=true)
+### 3. Unemployment rates of top 3 and bottom 3 LGAs 
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(2).png?raw=true)
+### 4. Crime Incident rates of top 3 and bottom 3 LGAs
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(3).png?raw=true)
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(5).png?raw=true)
+### 5. Unemployment rates of top 3 and bottom 3 LGAs
 ![](https://github.com/user-attachments/assets/6ff9c4a0-cb8d-4126-bad2-095fc96926a7)
+### 6. Results of findings post on slack
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image.png?raw=true)
+### 7. 
 ![](https://github.com/stanfordpeng/govhack2024/blob/main/pic/image%20(4).png?raw=true)
 
 
