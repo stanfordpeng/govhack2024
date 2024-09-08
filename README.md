@@ -3,7 +3,7 @@ Governments and policymakers often face challenges in understanding the evolving
 
 This AI-powered platform addresses these issues by integrating multi-dimensional data, including historical population growth, current geo amenities (such as police stations, hospitals, and schools), and future forecasts for the next 10 to 20 years. 
 
-By analyzing these data points, the platform provides actionable insights and recommendations on critical infrastructure upgradesranging from roads , agecare facilities, parks to educational facilities like schools and universities, healthcare services such as hospitals and clinics, and other essential amenities like petrol stations and train stations. It identifies optimal locations and timelines for these developments, ensuring they meet the future demands of the growing community effectively and efficiently.
+By analyzing these data points, the platform provides actionable insights and recommendations on critical infrastructure upgrades ranging from roads , agecare facilities, parks to educational facilities like schools and universities, healthcare services such as hospitals and clinics, and other essential amenities like petrol stations and train stations. It identifies optimal locations and timelines for these developments, ensuring they meet the future demands of the growing community effectively and efficiently.
 
 This Platform also provides APIs for Real time Livability Index per location and Also Forecasts Livability Index and Corresponding SubIndices for User Selected Duration. 
 
@@ -44,6 +44,8 @@ The prediction engine utilizes our feature engineering library to analyse histor
 
 ### CommunityInsights  
 ![CommunityAI](gif/CommunityAIRevised.gif)
+
+![CommunityAIHome](gif/CommunityAIHome.gif)
 
 ### AtlasAI
 
@@ -90,6 +92,18 @@ https://dbr.abs.gov.au/region.html?lyr=sa4&rgn=204
 https://dbr.abs.gov.au/region.html?lyr=lga&rgn=22750
 https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25710
 
+[LGA Population projections 2022 to 2032 | Digital Atlas of Australia ](
+https://digital.atlas.gov.au/datasets/5f866394db4a452da103bcaf9acf23fd_0/explore?location=-23.515642%2C-47.592505%2C3.98)
+
+[Australia's Transport Network | Digital Atlas of Australia ](https://digital.atlas.gov.au/datasets/e5097c31e56545839b236a86b25546e7_2/explore?location=-23.476176%2C-47.606250%2C4.00)
+
+[State Emergency Services Facilities | Digital Atlas of Australia ](https://digital.atlas.gov.au/datasets/d62af0ed9f7549e695eb8cb42b819c0d_5/explore?location=-23.476176%2C-47.606250%2C4.00)
+
+[Police Stations | Digital Atlas of Australia](https://digital.atlas.gov.au/datasets/e5097c31e56545839b236a86b25546e7_2/explore?location=-23.476176%2C-47.606250%2C4.00)
+
+
+[Railway Stations | Digital Atlas of Australia](
+https://digital.atlas.gov.au/datasets/ce226ce26ed94a8f9b644b000cb8430e_0/explore?location=-20.215809%2C-45.615250%2C3.54)
 ## Benefits 
 
 ## Video Demonstration
