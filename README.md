@@ -76,18 +76,6 @@ https://dbr.abs.gov.au/region.html?lyr=sa4&rgn=204
 https://dbr.abs.gov.au/region.html?lyr=lga&rgn=22750
 https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25710
 
-
-#### Success Response
-
-**Code** : `200 OK`
-
-**Content example**
-
-### Insights API
-This API will provide the Admin View 
-
-
-
 ## Benefits 
 
 ## Video Demonstration
