@@ -37,8 +37,8 @@ Addressing these gaps is crucial to building more resilient, thriving communitie
 
 ## Insights AI APIs
 
-### Livability Index
- GET /api/v1/liveability
+### [Livability Index](https://github.com/stanfordpeng/govhack2024/blob/main/api-docs/livability.md)
+`GET /api/v1/liveability`
 
 * Query Params
     * lga (required)
@@ -46,7 +46,7 @@ Addressing these gaps is crucial to building more resilient, thriving communitie
     * categories (optional)
     * unit (optional)
 * Response
-
+```
 {
     "lga": "Whitehorse",
     "year": 2023,
@@ -57,15 +57,16 @@ Addressing these gaps is crucial to building more resilient, thriving communitie
         "infrastructure": 9.0
     }
 }                 
+```
+### Population Forecast 
+`GET /api/v1/population-forecast`
 
-GET /api/v1/population-forecast
- 
-GET /api/v1/insights/{domain}
-
+ ### [Insights Api](https://github.com/stanfordpeng/govhack2024/blob/main/api-docs/insights.md)
+`GET /api/v1/insights/{domain}`
 * domain = healthcare, education, infrastructure, environment, housing
 
-GET /api/v1/generate-response
-
+### GenAi Prompt Api
+`POST /api/v1/generate-response`
 
 Data sources 
 https://dbr.abs.gov.au/region.html?lyr=lga&rgn=25620
